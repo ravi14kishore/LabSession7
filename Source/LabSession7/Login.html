@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="login">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="validation.js"></script>
+</head>
+<body background="http://www.pageresource.com/wallpapers/wallpaper/desktop-spring-theme-beach-ocean-themes-download.jpg" ng-controller="LoginController">
+<br><br><br><br><h1 style="text-align: center;font-size: 300%">Welcome to the Login Page</h1><br><br><br><br>
+<form>
+    <b>Username</b> &nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" ng-model="username" id="uName"><br><br><br>
+    <b>Password</b> &nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp; <input type="password" ng-model="password" id="pWord"><br><br><br>
+    <input style="background-color: blue;color: white" type="button" value="Login" ng-click="login(username,password)">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Registration.html"><input style="background-color: blue;color: white" type="button" value="Register"></a>
+</form>
+</body>
+</html>

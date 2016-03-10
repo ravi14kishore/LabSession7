@@ -1,0 +1,10 @@
+form{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 200%;
+}
+input{
+    font-size: 100%;
+    font-family: Calibri;
+    border-radius: 6px;
+}
